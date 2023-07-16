@@ -3,6 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script'
 import Banner from './Banner'
+import Category from './Category'
+import House from './House/House'
+import Award from './Award/Award'
+import Choose from './Choose'
+import Partner from './Partner'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,7 +20,11 @@ export default function Home() {
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></Script>
       <main className={styles.main}>
        <Banner/>
-
+      {/* <Category/> */}
+      <House/>
+      <Award/>
+      <Choose/>
+      <Partner/>
         </main>
     </div>
   )

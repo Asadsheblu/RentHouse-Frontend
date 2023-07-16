@@ -2,6 +2,7 @@ import Script from 'next/script'
 import '../styles/globals.css'
 import Navbar from './Navbar'
 import Head from 'next/head'
+import Footer from './Footer'
 
 function MyApp({ Component, pageProps }) {
   return<>
@@ -19,7 +20,7 @@ function MyApp({ Component, pageProps }) {
 
   <Component {...pageProps} />
 
-
+<Footer/>
 </div>
  
   </>

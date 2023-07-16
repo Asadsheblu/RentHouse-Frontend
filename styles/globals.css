@@ -27,3 +27,78 @@ a {
   font-size: 4em;
   margin-top: 100px;
 }
+/* Category */
+.category{
+  background-color: #f7f9fc;
+}
+@media screen and (max-width: 480px) {
+  .house {
+   margin-top: 230px;
+  }
+}
+.heart{
+  color: darkgrey;
+}
+.heart:hover{
+color: red;
+}
+/* award */
+.award{
+  background-color: #122947;
+}
+.icon {
+  background: hsla(0,0%,100%,.1);
+  border-radius: 4% 50%;
+  color: #fff;
+  font-size: 32px;
+  height: 100px;
+  line-height: 100px;
+  margin: 50px auto auto;
+  width: 100px;
+}
+/* choose */
+.choose{
+  background-color: #f6f7fb;
+}
+.thumb {
+  background:#2e7039;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  line-height: 68px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+/* About */
+.section-bg{
+  background-image: url("/bg-sofa.jpg");
+  background-size: cover;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  height: 60vh;
+
+}
+.heading-text{
+  font-size: 3.5em;
+  font-weight: 600;
+}
+.shape-image {
+  padding: 35px 0 0 35px;
+  position: relative;
+}
+  .shadow-img {
+    -webkit-box-shadow: 0px 30px 40px rgb(214, 187, 33);
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.shape-image img {
+  border-radius: 8px;
+}
+@media only screen and (max-width: 991px){
+.shape-image{
+    padding: 20px 0 0 20px;
+    position: relative;
+    display: inline-block;
+}
+}
