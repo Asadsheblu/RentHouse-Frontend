@@ -12,7 +12,7 @@ const Details = () => {
     const houseId=router.query._id
     const [details,setDetails]=useState({})
     useEffect(()=>{
-        fetch(`http://localhost:5000/house/${houseId}`)
+        fetch(`https://renthouse-backend.onrender.com/house/${houseId}`)
         .then(res=>res.json())
         .then(data=>setDetails(data))
     },[])

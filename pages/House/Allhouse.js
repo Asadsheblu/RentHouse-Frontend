@@ -5,7 +5,7 @@ import { FaArrowRight, FaHeart, FaLocationArrow } from 'react-icons/fa';
 const Allhouse = () => {
     const [houses,sethouses]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/house')
+        fetch('https://renthouse-backend.onrender.com/house')
         .then(res=>res.json())
         .then(data=>{
             sethouses(data)

@@ -46,7 +46,7 @@ console.log(data);
           description:description,
           img:img
         }
-      fetch('http://localhost:5000/house',{
+      fetch('https://renthouse-backend.onrender.com/house',{
         method:"POST",
         headers:{
           "content-type":"application/json"
