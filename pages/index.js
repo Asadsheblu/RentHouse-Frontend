@@ -8,6 +8,7 @@ import House from './House/House'
 import Award from './Award/Award'
 import Choose from './Choose'
 import Partner from './Partner'
+import Card from './Card'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -22,6 +23,7 @@ export default function Home() {
        <Banner/>
       {/* <Category/> */}
       <House/>
+      <Card/>
       <Award/>
       <Choose/>
       <Partner/>

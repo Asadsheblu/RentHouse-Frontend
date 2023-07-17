@@ -1,8 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
 import { FaPlus, FaSearch, FaSearchDollar } from 'react-icons/fa';
+// import { useSession, signIn, signOut } from "next-auth/react"
 
 const Navbar = () => {
+  //  const [session,loading] =useSession()
+  //  console.log(session,loading);
+  
+  
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -14,22 +19,22 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+          <Link className="nav-link active" aria-current="page" href="/">HOME</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="/About">About</Link>
+          <Link className="nav-link" href="/About">ABOUT</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Services</a>
+          <Link className="nav-link" href="/Faq">FAQ</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Blog</a>
+          <a className="nav-link" href="#">BLOG</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <Link className="nav-link" href="/Advisor">ADVISOR</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <a className="nav-link" href="#">CONTACT</a>
         </li>
        
           </ul>
