@@ -20,7 +20,7 @@ const House = () => {
                      houses.slice(0,6).map(house=><>
                       <div class="col">
                       <div class="card h-100 shadow rounded">
-      <Image src={house?.img} class="card-img-top img-fluid " alt="house-img"/>
+      <img src={house?.img}  class="card-img-top img-fluid " alt="house-img"/>
       <div class="card-body ps-3">
        <div className='d-flex'>
        <span className='bg-dark text-white rounded ps-2 pe-2 pt-1 pb-1'>For Rent</span>
