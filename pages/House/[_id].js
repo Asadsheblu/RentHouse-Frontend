@@ -43,7 +43,7 @@ const Details = () => {
  
      
     
-      <Image src={details?.img}  class="img-fluid rounded-start" alt="House"/>
+      <img src={details?.img}  class="img-fluid rounded-start" alt="House"/>
     
    
     
