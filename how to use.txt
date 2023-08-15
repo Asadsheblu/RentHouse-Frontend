@@ -1,0 +1,28 @@
+
+SearchHouse- Multi Concept House, Apartment Rent Nextjs Template
+1download this file
+//How To Start Server 
+***npm run dev**
+
+//and edit kinds of Componnets
+*Navbar component-You Can add menu your Navbar 
+*Banner component-You Can Add banner 
+*Admin/HouseAdd component-You Can edit this Houeadd Form
+*About component- You can Edit About Info 
+*Contact component- You Can edit Your Contact Info
+*FAQ component-You Can Edit Frequenty Asked Question (FAQ)
+*Advisor component-You can edit Advisor Data
+*Allhouse Component- this components you can edit/updated design and product
+I will Provide Life Time Api Free: 
+Added House-
+When buyer add House You can update House Page from api: https://renthouse-backend.onrender.com/house
+Do You Need updated backend i will provide github code free : 
+https://github.com/Asadsheblu/RentHouse-Backend
+
+here is Github Code ..you download this code and edit/updated as can per your choice...
+
+This is the details about this project..
+
+if you don't understand details  Please Ping Me i will solve your problem
+Whatsapp: +88 01609101537
+email: shebluasad@gmail.com
