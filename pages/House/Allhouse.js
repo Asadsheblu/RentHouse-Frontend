@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { FaArrowRight, FaHeart, FaLocationArrow } from 'react-icons/fa';
@@ -25,7 +26,7 @@ const Allhouse = () => {
                  houses.map(house=><>
                   <div class="col">
                   <div class="card h-100 shadow rounded">
-  <img src={house?.img} class="card-img-top img-fluid " alt="house-img"/>
+  <Image src={house?.img} class="card-img-top img-fluid " alt="house-img"/>
   <div class="card-body ps-3">
    <div className='d-flex'>
    <span className='bg-dark text-white rounded ps-2 pe-2 pt-1 pb-1'>For Rent</span>
