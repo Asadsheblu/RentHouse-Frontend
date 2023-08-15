@@ -107,6 +107,10 @@ color: red;
     position: relative;
     display: inline-block;
 }
+iframe{
+  width: 350px;
+  height: 250px;
+}
 }
 
 /* card */
